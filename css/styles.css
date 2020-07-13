@@ -1,0 +1,226 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  font-size: 1.4rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+input {
+  width: 100%;
+  display: block;
+}
+
+textarea {
+  width: 100%;
+  display: block;
+  margin: 5px;
+}
+
+a.butts {
+  font-size: 18px;
+  padding: 10px;
+}
+
+button.butts {
+  font-size: 18px;
+  padding: 10px;
+}
+
+.hey {
+  font-size: 2.2rem;
+}
+
+.reachout {
+  padding: 5px;
+}
+
+.simon {
+  padding: 5px 5px 7px 5px;
+}
+
+.storium {
+  padding: 5px 5px 7px 5px;
+}
+
+.info {
+  width: 80%;
+  margin: 5px;
+  border: 0 !important;
+}
+
+.card-title {
+  font-size: 1.3rem;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.intro {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+.subsection {
+  font-size: 2.2rem;
+}
+
+.description {
+  font-size: 1.3rem;
+}
+
+a.cardb {
+  /* padding: 4%; */
+}
+
+span.wave {
+  animation-name: wave-animation;
+  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;
+  /* Change to speed up or slow down */
+  animation-iteration-count: infinite;
+  /* Never stop waving :) */
+  transform-origin: 70% 70%;
+  /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0.0deg)
+  }
+
+  10% {
+    transform: rotate(-10.0deg)
+  }
+
+  /* The following four values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(12.0deg)
+  }
+
+  30% {
+    transform: rotate(-10.0deg)
+  }
+
+  40% {
+    transform: rotate(9.0deg)
+  }
+
+  50% {
+    transform: rotate(0.0deg)
+  }
+
+  /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0.0deg)
+  }
+}
+
+span.bounce {
+  width: 57px;
+  position: relative;
+  animation-name: bouncing;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  display: inline-block;
+}
+
+@keyframes bouncing {
+  10% {
+    height: 50px;
+    width: 57px;
+  }
+
+  30% {
+    height: 50px;
+    width: 57px;
+  }
+
+  50% {
+    height: 30px;
+    width: 57px;
+    transform: translateY(30px);
+  }
+
+  75% {
+    height: 50px;
+    width: 57px;
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@media (min-width: 1440px) {
+  /* div.middle {
+    display: none;
+  } */
+  h1.hey {
+    font-size: 3rem;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  h4.intro {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  div.top {
+    min-width: 90%;
+    min-height: 0;
+    position: relative;
+    /* bottom: 100px; */
+  }
+
+  div.bottom {
+    min-width: 85%;
+    position: relative;
+    /* bottom: 300px; */
+  }
+
+  a.butts {
+    font-size: 1.7rem;
+    padding: 13px;
+  }
+  button.butts {
+    font-size: 1.7rem;
+    padding: 13px;
+  }
+  p.card-text {
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+  }
+  h5.card-title {
+    font-size: 1.9rem;
+  }
+  h2.subsection {
+    font-size: 2.8rem;
+  }
+  p.description {
+    font-size: 2rem;
+  }
+  /* a.cardb {
+    padding: 3%;
+  } */
+}
