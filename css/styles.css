@@ -36,11 +36,6 @@ a.butts {
   padding: 10px;
 }
 
-button.butts {
-  font-size: 18px;
-  padding: 10px;
-}
-
 .hey {
   font-size: 2.2rem;
 }
@@ -200,10 +195,6 @@ span.bounce {
   }
 
   a.butts {
-    font-size: 1.7rem;
-    padding: 13px;
-  }
-  button.butts {
     font-size: 1.7rem;
     padding: 13px;
   }
