@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -72,7 +73,7 @@
       </h1>
     </div>
   </div>
-  <div class="container bottom" style="margin-bottom: 3rem; margin-top: 3rem;">
+  <div class="container aos-init aos-animate bottom" data-aos = "fade-up" style="margin-bottom: 3rem; margin-top: 3rem;">
     <div class="row" style="margin-left: 0.8rem;">
       <h2 class="subsection">Featured Projects</h2>
     </div>
@@ -112,6 +113,89 @@
         </div>
       </div>
     </div>
+    <div class="container bottom" style="margin-bottom: 3rem; margin-top: 3rem;">
+      <div class="row" style="margin-left: 0.8rem;">
+        <h2 class="subsection">My Knowledge</h2>
+      </div>
+      <div class="row" style="margin-left: 0.8rem; margin-bottom: 2rem">
+        <p class="description">These are the areas I prefer working in.</p>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="aos-init aos-animate" data-aos="fade-up">
+            <div class="">
+              <i class="fas fa-database fa-3x"></i>
+            </div>
+            <br>
+            <h3>Web Development</h3>
+            <p>
+            <a class="btn tools btn-outline-info">REST API</a>
+            <br>
+            <a class="btn tools btn-outline-info">Firebase</a>
+            <br>
+            <a class="btn tools btn-outline-info">Node.js ~ Express</a>
+            <br>
+            <a class="btn tools btn-outline-info">MongoDB | PostgreSQL</a>
+            <br>
+            <a class="btn tools btn-outline-info">React.js</a>
+            <br>
+            <a class="btn tools btn-outline-info">Python - FastAPI</a>
+            <br>
+            <a class="btn tools btn-outline-info">HTML | CSS | JS</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="aos-init aos-animate" data-aos="fade-up">
+            <div class="">
+              <i class="fab fa-app-store-ios fa-3x"></i>
+            </div>
+            <br>
+            <h3>App Development</h3>
+            <p>
+            <a class="btn tools btn-outline-info">MVC Design Pattern</a>
+            <br>
+            <a class="btn tools btn-outline-info">Realm | Core Data</a>
+            <br>
+            <a class="btn tools btn-outline-info">User Defaults</a>
+            <br>
+            <a class="btn tools btn-outline-info">NLP</a>
+            <br>
+            <a class="btn tools btn-outline-info">Cocoapods</a>
+            <br>
+            <a class="btn tools btn-outline-info">Hooks | Redux</a>
+            <br>
+            <a class="btn tools btn-outline-info">Swift | React Native</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="aos-init aos-animate" data-aos="fade-up">
+            <div class="">
+              <i class="fas fa-tools fa-3x"></i>
+            </div>
+            <br>
+            <h3>Tools</h3>
+            <p>
+            <a class="btn tools btn-outline-info">GitHub</a>
+            <br>
+            <a class="btn tools btn-outline-info">Version Control</a>
+            <br>
+            <a class="btn tools btn-outline-info">Postman | API Testing</a>
+            <br>
+
+            <br>
+
+            <br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
 </body>
 
 </html>

@@ -11,6 +11,10 @@ h2 {
   font-family: 'Open Sans', sans-serif;
 }
 
+h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+
 h4 {
   font-family: 'Open Sans', sans-serif;
 }
@@ -34,6 +38,10 @@ textarea {
 a.butts {
   font-size: 18px;
   padding: 10px;
+}
+
+.tools {
+  margin: 3px;
 }
 
 .hey {
