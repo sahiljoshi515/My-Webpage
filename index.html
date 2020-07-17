@@ -11,11 +11,27 @@
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-  <div class="container top" style="width: 100%;display: flex; justify-content: center; align-items: center; min-height: 90vh;">
+  <nav id="Bar" class="navbar fixed-top navbar-expand-lg navbar-dark" style = "padding: 3px 16px 3px 16px;background-color: #000000">
+  <a id="navHome" class="navbar-brand" href="#"><i class="fas fa-home"></i></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto">
+      <a id="navFeature" class="nav-item nav-content nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="#Featured-Projects">Featured Projects</a>
+      <a id="navExpertise" class="nav-item nav-content nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="#Expertise">Areas of Expertise</a>
+    </div>
+  </div>
+</nav>
+  <div id="About"class="container top" style="width: 100%;display: flex; justify-content: center; align-items: center; min-height: 81vh; margin-top: 3rem;">
     <div style="width: 100%;padding: 0.5em;">
       <div class="row">
         <div class="col-lg-4 col-md-12 col-sm-6" style="display: flex; justify-content: center; align-items: center;">
@@ -33,8 +49,8 @@
             <div class="row" style="margin-bottom: 15px; letter-spacing: 1px;">
               <div class="col">
                 <h4 class="intro"> I'm <strong>Sahil Joshi</strong>,
-                  a full-stack developer who is passionate about building applications
-                  and creating programming tools which will prove to be helpful to human kind ❤️.
+                  a full-stack developer, who is passionate about building applications
+                  and creating programming tools which will prove to be helpful to human kind.
                 </h4>
               </div>
             </div>
@@ -69,11 +85,11 @@
   <div class="container middle" style="min-height: 15vh;">
     <div class="justify-content-sm-center row" style="align-self: center; justify-content: center; align-items:center;">
       <h1>
-        <span class="bounce span12 text-center">👇</span>
+        <a id="pointer" href="#Featured-Projects"> <span class="bounce span12 text-center">👇</span> </a>
       </h1>
     </div>
   </div>
-  <div class="container bottom" style="margin-bottom: 3rem; margin-top: 3rem;">
+  <div id="Featured-Projects" class="container bottom" style="margin-bottom: 3rem; margin-top: 3rem;">
     <div class="row" style="margin-left: 0.8rem;">
       <h2 class="subsection">Featured Projects</h2>
     </div>
@@ -81,7 +97,7 @@
       <p class="description">These are few of the projects I have worked on recently.</p>
     </div>
     <div class="card-group">
-      <div class="card aos-init aos-animate" data-aos="fade-up">
+      <div class="card aos-init aos-animate" data-aos="fade-right">
         <img src="images/reachout.png" class="reachout card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">ReachOUT</h5>
@@ -91,17 +107,17 @@
           <a href="https://github.com/cicscareers/320-S20-Track1" class="btn cardb btn-lg btn-outline-primary"><i class="fab fa-github"></i></a>
         </div>
       </div>
-      <div class="card aos-init aos-animate" data-aos="fade-up">
+      <div class="card aos-init aos-animate" data-aos="fade-right">
         <img src="images/storium.png" class="storium card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Woolgatherer Web Service</h5>
-          <p class="card-text">I am currently working as a research assistant to modify this web service. We are using Bootstrap, JQuery and Jinja for the frontend and PostgreSQL for the backend. Azkaban will be used to deploy this web service.</p>
+          <p class="card-text">I am currently working as a research assistant for <a href="https://people.cs.umass.edu/~nsa/">Nader Akoury</a> to modify this web service. We are using Bootstrap, JQuery and Jinja for the frontend and PostgreSQL for the backend.</p>
         </div>
         <div class="card-footer" style="background-color: white; border: none;">
           <a href="https://github.com/ngram-lab/woolgatherer" class="btn cardb btn-lg btn-outline-primary"><i class="fab fa-github"></i></a>
         </div>
       </div>
-      <div class="card aos-init aos-animate" data-aos="fade-up">
+      <div class="card aos-init aos-animate" data-aos="fade-right">
         <img src="images/simon.png" class="simon card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Simon Game</h5>
@@ -113,7 +129,7 @@
         </div>
       </div>
     </div>
-    <div class="container bottom" style="margin-bottom: 3rem; margin-top: 3rem;">
+    <div id="Expertise" class="container bottom" style="margin-bottom: 4rem; margin-top: 5rem;">
       <div class="row" style="margin-left: 0.8rem; margin-bottom: 2rem">
         <h2 class="subsection">Areas of Expertise</h2>
       </div>
@@ -127,21 +143,21 @@
               <i class="fas fa-database fa-3x"></i>
             </div>
             <br>
-            <h3>Web Development</h3>
+            <h3>Web Technologies</h3>
             <p>
-              <a style="cursor: default;" class="btn tools btn-outline-info">REST API</a>
+              <button class="btn tools btn-outline-light" style="cursor: default;">REST API</button>
               <br>
-              <a class="btn tools btn-outline-info" style="cursor: default;">Firebase</a>
+              <button class="btn tools btn-outline-light" style="cursor: default;">Firebase</button>
               <br>
-              <a class="btn tools btn-outline-info" style="cursor: default;">Node.js ~ Express</a>
+              <button class="btn tools btn-outline-light  " style="cursor: default;" >Node.js ~ Express</button>
               <br>
-              <a class="btn tools btn-outline-info" style="cursor: default;">MongoDB | PostgreSQL</a>
+              <button class="btn tools btn-outline-light  " style="cursor: default;">MongoDB | PostgreSQL</button>
               <br>
-              <a class="btn tools btn-outline-info" style="cursor: default;">React.js</a>
+              <button class="btn tools btn-outline-light  " style="cursor: default;">React.js</button>
               <br>
-              <a class="btn tools btn-outline-info" style="cursor: default;">Python - FastAPI</a>
+              <button class="btn tools btn-outline-light  " style="cursor: default;">Python - FastAPI</button>
               <br>
-              <a class="btn tools btn-outline-info" style="cursor: default;">HTML | CSS | JS</a>
+              <button class="btn tools btn-outline-light " style="cursor: default;">HTML | CSS | JS</button>
             </p>
           </div>
         </div>
@@ -153,19 +169,19 @@
             <br>
             <h3>App Development</h3>
             <p>
-              <a class="btn tools btn-outline-info" style="cursor: default;">MVC Design Pattern</a>
+              <button class="btn tools btn-outline-light" style="cursor: default;">MVC Design Pattern</button>
               <br>
-              <a class="btn tools btn-outline-info" style="cursor: default;">Realm | Core Data</a>
+              <button class="btn tools btn-outline-light " style="cursor: default;">Realm | Core Data</button>
               <br>
-              <a class="btn tools btn-outline-info" style="cursor: default;">User Defaults</a>
+              <button class="btn tools btn-outline-light " style="cursor: default;">User Defaults</button>
               <br>
-              <a class="btn tools btn-outline-info" style="cursor: default;">NLP</a>
+              <button class="btn tools btn-outline-light " style="cursor: default;">NLP</button>
               <br>
-              <a class="btn tools btn-outline-info" style="cursor: default;">Cocoapods</a>
+              <button class="btn tools btn-outline-light" style="cursor: default;">Cocoapods</button>
               <br>
-              <a class="btn tools btn-outline-info" style="cursor: default;">Hooks | Redux</a>
+              <button class="btn tools btn-outline-light " style="cursor: default;">Hooks | Redux</button>
               <br>
-              <a class="btn tools btn-outline-info" style="cursor: default;">Swift | React Native</a>
+              <button class="btn tools btn-outline-light " style="cursor: default;">Swift | React Native</button>
             </p>
           </div>
         </div>
@@ -177,16 +193,19 @@
             <br>
             <h3>Tools</h3>
             <p>
-              <a class="btn tools btn-outline-info" style="cursor: default;">GitHub</a>
+              <button class="btn tools btn-outline-light " style="cursor: default;">GitHub | Trello</button>
               <br>
-              <a class="btn tools btn-outline-info" style="cursor: default;">Version Control</a>
+              <button class="btn tools btn-outline-light  " style="cursor: default;">Version Control</button>
               <br>
-              <a class="btn tools btn-outline-info" style="cursor: default;">Postman | API Testing</a>
+              <button class="btn tools btn-outline-light  "style="cursor: default;" >Postman | API Testing</button>
               <br>
-
+              <button class="btn tools btn-outline-light  " style="cursor: default;">SQLite | Robo 3T</button>
               <br>
-
+              <button class="btn tools btn-outline-light  " style="cursor: default;">Word | Excel | Powerpoint</button>
               <br>
+              <button class="btn tools btn-outline-light  " style="cursor: default;">Arduino | C | C++</button>
+              <br>
+              <button class="btn tools btn-outline-light  " style="cursor: default;">Atom | VS Code</button>
             </p>
           </div>
         </div>
@@ -196,6 +215,17 @@
     <script>
       AOS.init();
     </script>
+    <script src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
 </body>
+<div class="footer" style="text-align: center;background-color: white; width: 100%; padding: 10px;margin:0;">
+  <div>
+      <hr>
+    <a id="goHome" class="btn navbar-brand" href="#" style="padding: 1px 0 10px 0;"><i class="fas fa-home" href="#"></i></a>
+    <h4 class="typewriter" style="display: inline !important;">Thank You for Visiting <h2 style="display: inline !important;"><span class="wave" role="img" aria-label="hand wave">🤝</span></h1></h2>
+  </div>
 
+
+</div>
 </html>

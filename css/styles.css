@@ -35,13 +35,34 @@ textarea {
   margin: 5px;
 }
 
+.navbar {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.navbar-hide {
+    pointer-events: none;
+    opacity: 0;
+}
+
+
+
 a.butts {
   font-size: 18px;
   padding: 10px;
 }
 
-.tools {
-  margin: 3px;
+button.tools {
+background-color: #f4f4f4;
+color: #3f4441;
+cursor: default;
+margin: 3px;
+}
+
+button.tools:hover{
+  background-image:none !important;
+  background: #3f4441;
+  color: #f4f4f4;
 
 }
 
@@ -90,6 +111,10 @@ a.butts {
   font-size: 1.3rem;
 }
 
+.nav-content {
+  font-family: 'Open Sans', sans-serif;
+}
+
 a.cardb {
   /* padding: 4%; */
 }
@@ -104,6 +129,10 @@ span.wave {
   transform-origin: 70% 70%;
   /* Pivot around the bottom-left palm */
   display: inline-block;
+}
+
+#navText {
+  font-family: 'Open Sans', sans-serif;
 }
 
 @keyframes wave-animation {
@@ -173,6 +202,7 @@ span.bounce {
     transform: translateY(0px);
   }
 }
+
 
 @media (min-width: 1440px) {
   /* div.middle {
