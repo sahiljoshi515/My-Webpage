@@ -25,6 +25,7 @@ p {
 }
 
 input {
+  padding: 10px;
   width: 100%;
   display: block;
 }
@@ -32,6 +33,7 @@ input {
 textarea {
   width: 100%;
   display: block;
+  padding: 10px;
   margin: 5px;
 }
 
@@ -49,7 +51,10 @@ button.disabled {
     opacity: 0;
 }
 
-
+button.butts {
+  font-size: 18px;
+  padding: 10px;
+}
 
 a.butts {
   font-size: 18px;
@@ -235,6 +240,11 @@ span.bounce {
     min-width: 85%;
     position: relative;
     /* bottom: 300px; */
+  }
+
+  button.butts {
+    font-size: 1.7rem;
+    padding: 13px;
   }
 
   a.butts {

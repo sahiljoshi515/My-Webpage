@@ -1,6 +1,4 @@
 
-
-
 $(function(){
 	 var lastScrollTop = 0, delta = 120;
 	 $('#navFeature').on('click', function(){
@@ -108,14 +106,4 @@ $("#goHome").click(function() {
     $('html,body').animate({
         scrollTop: $(".second").offset().top},
         'slow');
-});
-
-
-var button = document.querySelectorAll('.tools');
-
-button.addEventListener('click', function(e) {
-    if(button.classList.contains('disabled')) {
-        e.preventDefault();
-        return false;
-    }
 });

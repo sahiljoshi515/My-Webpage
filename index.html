@@ -73,8 +73,9 @@
               </div>
               <div class="col-md-3 col-6" style="text-align: left;">
                 <div class="" style="padding: 5px;">
-                  <a target="_top" href="mailto:sahiljoshi759@gmail.com" class="btn butts info btn-outline-success"><i class="fas fa-envelope"></i> Contact</a>
+                  <button data-toggle="modal" data-target="#exampleModal"  class="btn butts info btn-outline-success"><i class="fas fa-envelope"></i> Contact</button>
                 </div>
+              <!--" target="_top" href="mailto:sahiljoshi759@gmail.com" -->
               </div>
             </div>
           </div>
@@ -82,6 +83,31 @@
       </div>
     </div>
   </div>
+  <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">New Email to Sahil Joshi</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form class="" action="https://formspree.io/xzbjyprr" method="POST">
+          <input class= "name" type="text" name="name" placeholder="Your Name" style="margin-bottom: 10px;" required>
+          <input class= "email" type="email" name="_replyto" placeholder="Your Email" style="margin-bottom: 10px;" required>
+          <input class= "subject" type="text" name="subject" placeholder="Your Subject"  style="margin-bottom: 10px;">
+          <textarea class= "message" name="message" placeholder="Enter the Message" rows="5" cols="80" style="margin-bottom: 10px;" required></textarea>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn send btn-primary">Send</button>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
   <div class="container middle" style="min-height: 15vh;">
     <div class="justify-content-sm-center row" style="align-self: center; justify-content: center; align-items:center;">
       <h1>
