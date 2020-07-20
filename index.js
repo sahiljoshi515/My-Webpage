@@ -109,3 +109,13 @@ $("#goHome").click(function() {
         scrollTop: $(".second").offset().top},
         'slow');
 });
+
+
+var button = document.querySelectorAll('.tools');
+
+button.addEventListener('click', function(e) {
+    if(button.classList.contains('disabled')) {
+        e.preventDefault();
+        return false;
+    }
+});

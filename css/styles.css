@@ -35,6 +35,10 @@ textarea {
   margin: 5px;
 }
 
+button.disabled {
+  opacity: 1 !important;
+}
+
 .navbar {
     opacity: 1;
     transition: opacity 0.5s ease;
@@ -61,8 +65,8 @@ margin: 3px;
 
 button.tools:hover{
   background-image:none !important;
-  background: #3f4441;
-  color: #f4f4f4;
+  background: #3f4441 !important;
+  color: #f4f4f4 !important;
 
 }
 
