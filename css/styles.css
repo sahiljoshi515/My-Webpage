@@ -81,14 +81,28 @@ button.tools:hover{
 
 .reachout {
   padding: 5px;
+
 }
 
 .simon {
   padding: 5px 5px 7px 5px;
+
 }
 
 .storium {
   padding: 5px 5px 7px 5px;
+}
+
+.todo {
+  padding: 5px 5px 10px 5px;
+}
+
+.bitcoin {
+  padding: 4px 5px 7px 5px;
+}
+
+.flower {
+  padding: 5px 5px 9px 5px;
 }
 
 .info {

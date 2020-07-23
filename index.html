@@ -68,14 +68,14 @@
 
               <div class="col-md-3 col-6" style="text-align: left;">
                 <div class="" style="padding: 5px;">
-                  <a target="_blank" href="docs/SAJ_Resume.pdf" class="btn info butts btn-outline-danger"><i class="fas fa-file-pdf"></i> Resume</a>
+                  <a target="_blank" href="docs/SahilJoshiResume.pdf" class="btn info butts btn-outline-danger"><i class="fas fa-file-pdf"></i> Resume</a>
                 </div>
               </div>
               <div class="col-md-3 col-6" style="text-align: left;">
                 <div class="" style="padding: 5px;">
-                  <button data-toggle="modal" data-target="#exampleModal"  class="btn butts info btn-outline-success"><i class="fas fa-envelope"></i> Contact</button>
+                  <button data-toggle="modal" data-target="#exampleModal" class="btn butts info btn-outline-success"><i class="fas fa-envelope"></i> Contact</button>
                 </div>
-              <!--" target="_top" href="mailto:sahiljoshi759@gmail.com" -->
+                <!--" target="_top" href="mailto:sahiljoshi759@gmail.com" -->
               </div>
             </div>
           </div>
@@ -84,30 +84,30 @@
     </div>
   </div>
   <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">New Email to Sahil Joshi</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">New Email to Sahil Joshi</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form class="" action="https://formspree.io/xzbjyprr" method="POST">
+            <input class="name" type="text" name="name" placeholder="Your Name" style="margin-bottom: 10px;" required>
+            <input class="email" type="email" name="_replyto" placeholder="Your Email" style="margin-bottom: 10px;" required>
+            <input class="subject" type="text" name="subject" placeholder="Your Subject" style="margin-bottom: 10px;">
+            <textarea class="message" name="message" placeholder="Enter the Message" rows="5" cols="80" style="margin-bottom: 10px;" required></textarea>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="submit" class="btn send btn-primary">Send</button>
+        </div>
+        </form>
       </div>
-      <div class="modal-body">
-        <form class="" action="https://formspree.io/xzbjyprr" method="POST">
-          <input class= "name" type="text" name="name" placeholder="Your Name" style="margin-bottom: 10px;" required>
-          <input class= "email" type="email" name="_replyto" placeholder="Your Email" style="margin-bottom: 10px;" required>
-          <input class= "subject" type="text" name="subject" placeholder="Your Subject"  style="margin-bottom: 10px;">
-          <textarea class= "message" name="message" placeholder="Enter the Message" rows="5" cols="80" style="margin-bottom: 10px;" required></textarea>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="submit" class="btn send btn-primary">Send</button>
-      </div>
-      </form>
     </div>
   </div>
-</div>
   <div class="container middle" style="min-height: 15vh;">
     <div class="justify-content-sm-center row" style="align-self: center; justify-content: center; align-items:center;">
       <h1>
@@ -154,6 +154,40 @@
         </div>
         <div class="card-footer cardf" style="background-color: white; border: none;">
           <a target="_blank" href="https://sahiljoshi515.github.io/Simon-Game/" class="btn cardb btn-lg btn-outline-primary"><i class="fas fa-play"></i></a>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="card-group">
+      <div class="card aos-init aos-animate" data-aos="fade-right">
+        <img src="images/todo.png" class="todo card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">To-Do-List Web App</h5>
+          <p class="card-text">You can create different categories of work/days by adding the name as the new endpoint to the url. I used EJS for the frontend and Node.js along with MongoDB for the backend. I have deployed it on Heroku.</p>
+        </div>
+        <div class="card-footer" style="background-color: white; border: none;">
+          <a target="_blank" href="https://guarded-everglades-48842.herokuapp.com/" class="btn cardb btn-lg btn-outline-primary"><i class="fas fa-book-open"></i></a>
+        </div>
+      </div>
+      <div class="card aos-init aos-animate" data-aos="fade-right">
+        <img src="images/flower.png" class="flower card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Guess The Flower</h5>
+          <p class="card-text"> I used the CoreML framework to build this application in XCode. It takes an image of a flower as the input and gives the name as the output based on the Inception v3 Model designed by Google. I wrote this program in Swift.
+          </p>
+        </div>
+        <div class="card-footer" style="background-color: white; border: none;">
+          <a target="_blank" href="https://github.com/sahiljoshi515/Guess-The-Flower" class="btn cardb btn-lg btn-outline-primary"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div class="card aos-init aos-animate" data-aos="fade-right">
+        <img src="images/bitcoin.png" class="bitcoin card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Bitcoin Price Reporter</h5>
+          <p class="card-text">This app will give you the latest Bitcoin prices in all the popular, traded currencies, so you can track how well your Bitcoin investments are doing on the go. I used <a href="https://www.coinapi.io/" target="_blank">coinapi.io</a> to fetch data using JSONDecoder for JSON parsing.  </p>
+        </div>
+        <div class="card-footer cardf" style="background-color: white; border: none;">
+          <a target="_blank" href="https://github.com/sahiljoshi515/Bitcoin-Price-Reporter" class="btn cardb btn-lg btn-outline-primary"><i class="fab fa-github"></i></a>
         </div>
       </div>
     </div>
