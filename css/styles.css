@@ -41,14 +41,6 @@ button.disabled {
   opacity: 1 !important;
 }
 
-/* h2.wavy {
-
-  text-decoration-line: underline;
-  text-decoration-style: solid;
-  text-decoration-color: black;
-
-} */
-
 .navbar {
     opacity: 1;
     transition: opacity 0.5s ease;
